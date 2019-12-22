@@ -35,13 +35,17 @@ color: #333;
 h1.m
 {
 position:relative;
-top:-355px;
+top:-455px;
 text-align:center;
+}
+div.m{
+width:1200px;
 }
 p.m
 {
 position:relative;
-top:-300px;
+top:-350px;
 left:+400px;
+word-wrap: break-word;
 font-size:150%;
 }
