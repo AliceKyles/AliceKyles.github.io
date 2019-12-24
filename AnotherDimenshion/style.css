@@ -1,0 +1,237 @@
+body
+{
+font-size:100%;
+background-image: url(maket.jpg);
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: 100% 100%;
+}
+nav
+{
+position:relative;
+top:-50px;
+background-image: url(maket1.jpg); 
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: 100% 18%;
+height:200px
+}
+div.m{
+width:100%;
+}
+p
+{
+position:relative;
+top:-50px;
+left:+20px;
+font-size:1.5em;
+color: #fff;
+word-wrap: break-word;
+}
+h1
+{
+position:relative;
+top:-50px;
+left:+20px;
+font-size:300%;
+color: #fff;
+text-align: center;
+}
+#navbar {
+position:relative;
+top:-50px;
+margin: 0;
+padding: 0;
+list-style-type: none;
+width: 100%
+height:50px;
+text-align: center;
+}
+#navbar li { display: inline; }
+#navbar a {
+color: #fff;
+padding: 5px 10px;
+text-decoration: none;
+font-weight: bold;
+display: inline-block;
+width: 23%;
+height:50px;
+border-left: 6px solid AliceBlue;
+border-top: 6px solid AliceBlue;
+border-right: 0px solid AliceBlue;
+border-bottom: 0px solid AliceBlue;
+border-style: groove;
+text-align: center;
+font-style: oblique;
+font-size: 240%
+}
+iframe.map
+{
+width: 70%;
+height:300px;
+align="right"
+}
+.dropdown {
+position: absolute; 
+right: 50px; 
+bottom: 50px;
+text-align: center; 
+padding: 500px 0; 
+display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: relative;
+    height:100%;
+    background-image: url(maket2.jpg); 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: #fff;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.catalog {
+	display:flex;
+	flex-wrap:wrap;
+}
+
+.product {
+	flex-grow:1;
+	flex-basis:16%;
+	padding:2%;
+	display:flex;
+	flex-direction:column;
+}
+
+.product__img {
+	max-width:100%;
+}
+
+
+.img1 {
+	width: 310px;
+	height:196px;
+	background:url("imgonline-com-ua-Transparent-backgr-zKM9QK6cEj.png");
+	background-size:cover;
+	background-position:center;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.img2 {
+	width: 310px;
+	height:174px;
+	background:url("imgonline-com-ua-Transparent-backgr-9Qo2lc1Sz1sa.png");
+	background-size:cover;
+	background-position:center;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.img3 {
+	width:200px;
+	height:174px;
+	background:url("imgonline-com-ua-Transparent-backgr-SQN9oyUexFsgTq.png");
+	background-size:cover;
+	background-position:center;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.img4 {
+	width:310px;
+	height:249px;
+	background:url("imgonline-com-ua-Transparent-backgr-V011FLlBYK.png");
+	background-size:cover;
+	background-position:center;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.img5 {
+	width:285px;
+	height:285px;
+	background:url("imgonline-com-ua-Transparent-backgr-HYnBov3DRAaDF.png");
+	background-size:cover;
+	background-position:center;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.img6 {
+	width:285px;
+	height:285px;
+	background:url("imgonline-com-ua-Transparent-backgr-A2be7Sbo6lJ23pq.png");
+	background-size:cover;
+	background-position:center;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.img7 {
+	width:233px;
+	height:285px;
+	background:url("imgonline-com-ua-Transparent-backgr-E7sOoa6UN1DZ.png");
+	background-size:cover;
+	background-position:center;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.img8 {
+	width:285px;
+	height:285px;
+	background:url("imgonline-com-ua-Transparent-backgr-BhGzx3x01YK1Sqt.png");
+	background-size:cover;
+	background-position:center;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+
+h4 {
+	color:white;
+    text-align:center;
+}
+
+.product__info {
+	margin-top:auto;
+}
+
+.product__info p {
+	position:static;
+	text-align:center;
+	
+}
+
+.button {
+	margin-top:auto;
+	border-left:2px groove white;
+	border-top:2px groove white;
+}
+
+.button p {
+	
+	position:static;
+	text-align:center;
+	font-style: oblique;
+	font-size:1.5em;
+	
+}
+.footercont {
+margin:10px 40% 0;
+}
