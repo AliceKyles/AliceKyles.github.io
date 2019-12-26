@@ -1,3 +1,7 @@
+html {
+	width: 100%;
+}
+
 body
 {
 font-size:100%;
@@ -5,6 +9,7 @@ background-image: url(maket.jpg);
 background-repeat: no-repeat;
 background-attachment: fixed;
 background-size: 100% 100%;
+overflow-x:hidden;
 }
 nav
 {
@@ -231,6 +236,72 @@ h4 {
 	font-style: oblique;
 	font-size:1.5em;
 	
+}
+
+.button p a{
+	color:white;
+	text-decoration:none;
+	
+}
+
+#back-transparent {
+	display: none;
+    opacity: 0.8;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+	padding: 16px;
+	background-color: rgba(1, 1, 1, 0.725);
+	z-index: 100;
+	overflow: auto;
+}
+
+#card {
+	display:none;
+	border:1px solid #274B74;
+	border-radius:50%;
+	background:#FFFFFF;
+	position: fixed;
+	left: 27%;
+	top: 3%;
+	width:700px;
+	height:700px;
+	z-index: 200;
+}
+.closeblock {
+	width:40px;
+	height:40px;
+	background:#FFFFFF;
+	border:1px solid #274B74;
+	border-radius:50%;
+	position:absolute;
+	top:10%;
+	left:100%;
+	cursor:pointer;
+}
+
+.closeblock__cross {
+	
+}
+
+.closeblock__cross-left {
+	width:30px;
+	height:0;
+	border:1px solid #274B74;
+	margin-top:19px;
+	margin-left:5px;
+	transform: rotate(45deg);
+}
+
+.closeblock__cross-right {
+	width:30px;
+	height:0;
+	border:1px solid #274B74;
+	margin-left:5px;
+	margin-top:-1px;
+	transform: rotate(-45deg);
 }
 .footercont {
 margin:10px 40% 0;
